@@ -24,9 +24,11 @@ import {
   Editor,
   Line,
 } from './pages';
+import { useStateContext } from './contexts/ContextProvider';
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
+
   return (
     <BrowserRouter>
       <div className='flex relative dark:bg-main-dark-bg'>
