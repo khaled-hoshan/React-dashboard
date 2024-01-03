@@ -188,13 +188,26 @@ export default function Ecommerce() {
                 <SparkLine
                   currentColor='blue'
                   id='line-sparkline'
-                  type='Line'
-                  height='80px'
-                  width='250px'
+                  type='line'
+                  height={80}
+                  width={250}
                   data={SparklineAreaData}
-                  color='blue'
+                  color='red'
                 />
               </div>
+              <div className='mt-10'>
+                <Button
+                  color='white'
+                  bgColor='blue'
+                  text='Download Report'
+                  borderRadius='10px'
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked width='320px'
+                height='360px'
+              />
             </div>
           </div>
         </div>
