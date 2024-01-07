@@ -205,8 +205,8 @@ export default function Ecommerce() {
               </div>
             </div>
             <div>
-              <Stacked width='320px'
-                height='360px'
+              <Stacked width='385'
+                height='265'
               />
             </div>
           </div>
